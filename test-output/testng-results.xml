@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="34" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-25T08:52:42 EET" name="User Registeration suit" finished-at="2021-06-25T08:54:04 EET" duration-ms="82786">
+    <groups>
+    </groups>
+    <test started-at="2021-06-25T08:52:42 EET" name="Registeration Test" finished-at="2021-06-25T08:53:01 EET" duration-ms="19093">
+      <class name="tests.RegisterationWithInvalidDataTest">
+        <test-method signature="userRegisterWithExistEmail()[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:46 EET" name="userRegisterWithExistEmail" finished-at="2021-06-25T08:52:48 EET" duration-ms="2681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterWithExistEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:48 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:52:48 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterWithExistEmail status=SUCCESS method=RegisterationWithInvalidDataTest.userRegisterWithExistEmail()[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userRegisterWithInValidEmail()[pri:1, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:48 EET" name="userRegisterWithInValidEmail" finished-at="2021-06-25T08:52:51 EET" duration-ms="2512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterWithInValidEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:51 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:52:51 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterWithInValidEmail status=SUCCESS method=RegisterationWithInvalidDataTest.userRegisterWithInValidEmail()[pri:1, instance:tests.RegisterationWithInvalidDataTest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userRegisterWithInvalidName()[pri:2, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:51 EET" name="userRegisterWithInvalidName" finished-at="2021-06-25T08:52:53 EET" duration-ms="2473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterWithInvalidName -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:53 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:52:53 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterWithInvalidName status=SUCCESS method=RegisterationWithInvalidDataTest.userRegisterWithInvalidName()[pri:2, instance:tests.RegisterationWithInvalidDataTest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userRegisterWithEmptyName()[pri:4, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:53 EET" name="userRegisterWithEmptyName" finished-at="2021-06-25T08:52:56 EET" duration-ms="2410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterWithEmptyName -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:56 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:52:56 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterWithEmptyName status=SUCCESS method=RegisterationWithInvalidDataTest.userRegisterWithEmptyName()[pri:4, instance:tests.RegisterationWithInvalidDataTest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userRegisterWithShortPassword()[pri:5, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:56 EET" name="userRegisterWithShortPassword" finished-at="2021-06-25T08:52:58 EET" duration-ms="2533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterWithShortPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:58 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:52:58 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterWithShortPassword status=SUCCESS method=RegisterationWithInvalidDataTest.userRegisterWithShortPassword()[pri:5, instance:tests.RegisterationWithInvalidDataTest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userRegisterWithEmptyPassword()[pri:6, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:52:58 EET" name="userRegisterWithEmptyPassword" finished-at="2021-06-25T08:53:01 EET" duration-ms="2376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterWithEmptyPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterationWithInvalidDataTest@1613674b]" started-at="2021-06-25T08:53:01 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:01 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterWithEmptyPassword status=SUCCESS method=RegisterationWithInvalidDataTest.userRegisterWithEmptyPassword()[pri:6, instance:tests.RegisterationWithInvalidDataTest@1613674b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- tests.RegisterationWithInvalidDataTest -->
+      <class name="tests.RegisterationTest">
+        <test-method signature="userRegisterWithValidInput()[pri:0, instance:tests.RegisterationTest@5ace1ed4]" started-at="2021-06-25T08:52:42 EET" name="userRegisterWithValidInput" finished-at="2021-06-25T08:52:46 EET" duration-ms="3927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterWithValidInput -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisterationTest@5ace1ed4]" started-at="2021-06-25T08:52:46 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:52:46 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterWithValidInput status=SUCCESS method=RegisterationTest.userRegisterWithValidInput()[pri:0, instance:tests.RegisterationTest@5ace1ed4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- tests.RegisterationTest -->
+    </test> <!-- Registeration Test -->
+    <test started-at="2021-06-25T08:53:01 EET" name="Login Test" finished-at="2021-06-25T08:53:19 EET" duration-ms="18626">
+      <class name="tests.LoginTest">
+        <test-method signature="userCanLoginWithValidData()[pri:0, instance:tests.LoginTest@49c7b90e]" started-at="2021-06-25T08:53:01 EET" name="userCanLoginWithValidData" finished-at="2021-06-25T08:53:06 EET" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLoginWithValidData -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@49c7b90e]" started-at="2021-06-25T08:53:06 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanLoginWithValidData status=SUCCESS method=LoginTest.userCanLoginWithValidData()[pri:0, instance:tests.LoginTest@49c7b90e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.LoginWithInvalidDataTest">
+        <test-method signature="emailFieldIsRequired()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:06 EET" name="emailFieldIsRequired" finished-at="2021-06-25T08:53:08 EET" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldIsRequired -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:08 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:08 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailFieldIsRequired status=SUCCESS method=LoginWithInvalidDataTest.emailFieldIsRequired()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="passwordFieldIsRequired()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:08 EET" name="passwordFieldIsRequired" finished-at="2021-06-25T08:53:10 EET" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordFieldIsRequired -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:10 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:10 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordFieldIsRequired status=SUCCESS method=LoginWithInvalidDataTest.passwordFieldIsRequired()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userCannotLoginWithInValidEmail()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:10 EET" name="userCannotLoginWithInValidEmail" finished-at="2021-06-25T08:53:12 EET" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotLoginWithInValidEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:12 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotLoginWithInValidEmail status=SUCCESS method=LoginWithInvalidDataTest.userCannotLoginWithInValidEmail()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userCannotLoginWithInValidPassword()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:12 EET" name="userCannotLoginWithInValidPassword" finished-at="2021-06-25T08:53:15 EET" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotLoginWithInValidPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:15 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotLoginWithInValidPassword status=SUCCESS method=LoginWithInvalidDataTest.userCannotLoginWithInValidPassword()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userCannotLoginWithInvaildEmailAndInValidPassword()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:15 EET" name="userCannotLoginWithInvaildEmailAndInValidPassword" finished-at="2021-06-25T08:53:17 EET" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotLoginWithInvaildEmailAndInValidPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:17 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:17 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotLoginWithInvaildEmailAndInValidPassword status=SUCCESS method=LoginWithInvalidDataTest.userCannotLoginWithInvaildEmailAndInValidPassword()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="userCannotLoginWithWrongEmail()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:17 EET" name="userCannotLoginWithWrongEmail" finished-at="2021-06-25T08:53:19 EET" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCannotLoginWithWrongEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1]" started-at="2021-06-25T08:53:19 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:19 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCannotLoginWithWrongEmail status=SUCCESS method=LoginWithInvalidDataTest.userCannotLoginWithWrongEmail()[pri:0, instance:tests.LoginWithInvalidDataTest@10d307f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- tests.LoginWithInvalidDataTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2021-06-25T08:53:19 EET" name="Teacher Register Test" finished-at="2021-06-25T08:53:48 EET" duration-ms="28904">
+      <class name="tests.TeacherRegisterationTest">
+        <test-method signature="teacherRegisterWithValidInput()[pri:0, instance:tests.TeacherRegisterationTest@67c33749]" started-at="2021-06-25T08:53:19 EET" name="teacherRegisterWithValidInput" finished-at="2021-06-25T08:53:25 EET" duration-ms="5222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegisterWithValidInput -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterationTest@67c33749]" started-at="2021-06-25T08:53:25 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherRegisterWithValidInput status=SUCCESS method=TeacherRegisterationTest.teacherRegisterWithValidInput()[pri:0, instance:tests.TeacherRegisterationTest@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherLoginWithValidInput()[pri:1, instance:tests.TeacherRegisterationTest@67c33749]" started-at="2021-06-25T08:53:25 EET" name="teacherLoginWithValidInput" finished-at="2021-06-25T08:53:28 EET" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherLoginWithValidInput -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterationTest@67c33749]" started-at="2021-06-25T08:53:28 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:28 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherLoginWithValidInput status=SUCCESS method=TeacherRegisterationTest.teacherLoginWithValidInput()[pri:1, instance:tests.TeacherRegisterationTest@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- tests.TeacherRegisterationTest -->
+      <class name="tests.TeacherRegisterWithInvalidData">
+        <test-method signature="teacherRegisterWithExistEmail()[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:28 EET" name="teacherRegisterWithExistEmail" finished-at="2021-06-25T08:53:31 EET" duration-ms="3361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegisterWithExistEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:31 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:31 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherRegisterWithExistEmail status=SUCCESS method=TeacherRegisterWithInvalidData.teacherRegisterWithExistEmail()[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherRegisterWithInValidEmail()[pri:1, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:31 EET" name="teacherRegisterWithInValidEmail" finished-at="2021-06-25T08:53:35 EET" duration-ms="3343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegisterWithInValidEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:35 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:35 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherRegisterWithInValidEmail status=SUCCESS method=TeacherRegisterWithInvalidData.teacherRegisterWithInValidEmail()[pri:1, instance:tests.TeacherRegisterWithInvalidData@fba92d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherRegisterWithInvalidName()[pri:2, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:35 EET" name="teacherRegisterWithInvalidName" finished-at="2021-06-25T08:53:38 EET" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegisterWithInvalidName -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:38 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:38 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherRegisterWithInvalidName status=SUCCESS method=TeacherRegisterWithInvalidData.teacherRegisterWithInvalidName()[pri:2, instance:tests.TeacherRegisterWithInvalidData@fba92d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherRegisterWithEmptyName()[pri:4, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:38 EET" name="teacherRegisterWithEmptyName" finished-at="2021-06-25T08:53:41 EET" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegisterWithEmptyName -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:41 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:41 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherRegisterWithEmptyName status=SUCCESS method=TeacherRegisterWithInvalidData.teacherRegisterWithEmptyName()[pri:4, instance:tests.TeacherRegisterWithInvalidData@fba92d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherRegisterWithShortPassword()[pri:5, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:41 EET" name="teacherRegisterWithShortPassword" finished-at="2021-06-25T08:53:45 EET" duration-ms="3718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegisterWithShortPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:45 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:45 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherRegisterWithShortPassword status=SUCCESS method=TeacherRegisterWithInvalidData.teacherRegisterWithShortPassword()[pri:5, instance:tests.TeacherRegisterWithInvalidData@fba92d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherRegisterWithEmptyPassword()[pri:6, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:45 EET" name="teacherRegisterWithEmptyPassword" finished-at="2021-06-25T08:53:48 EET" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherRegisterWithEmptyPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherRegisterWithInvalidData@fba92d3]" started-at="2021-06-25T08:53:48 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:48 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherRegisterWithEmptyPassword status=SUCCESS method=TeacherRegisterWithInvalidData.teacherRegisterWithEmptyPassword()[pri:6, instance:tests.TeacherRegisterWithInvalidData@fba92d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- tests.TeacherRegisterWithInvalidData -->
+    </test> <!-- Teacher Register Test -->
+    <test started-at="2021-06-25T08:53:48 EET" name="Teacher Login Test" finished-at="2021-06-25T08:54:04 EET" duration-ms="16051">
+      <class name="tests.TeacherLoginWithInvalidData">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:52:30 EET" name="startDriver" finished-at="2021-06-25T08:52:42 EET" duration-ms="11465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="emailFieldIsRequired()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:48 EET" name="emailFieldIsRequired" finished-at="2021-06-25T08:53:51 EET" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldIsRequired -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:51 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:51 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emailFieldIsRequired status=SUCCESS method=TeacherLoginWithInvalidData.emailFieldIsRequired()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="passwordFieldIsRequired()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:51 EET" name="passwordFieldIsRequired" finished-at="2021-06-25T08:53:53 EET" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordFieldIsRequired -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:53 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:53 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passwordFieldIsRequired status=SUCCESS method=TeacherLoginWithInvalidData.passwordFieldIsRequired()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherCannotLoginWithInValidEmail()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:53 EET" name="teacherCannotLoginWithInValidEmail" finished-at="2021-06-25T08:53:56 EET" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherCannotLoginWithInValidEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:56 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:56 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherCannotLoginWithInValidEmail status=SUCCESS method=TeacherLoginWithInvalidData.teacherCannotLoginWithInValidEmail()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherCannotLoginWithInValidPassword()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:56 EET" name="teacherCannotLoginWithInValidPassword" finished-at="2021-06-25T08:53:59 EET" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherCannotLoginWithInValidPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:59 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:53:59 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherCannotLoginWithInValidPassword status=SUCCESS method=TeacherLoginWithInvalidData.teacherCannotLoginWithInValidPassword()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherCannotLoginWithInvaildEmailAndInValidPassword()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:53:59 EET" name="teacherCannotLoginWithInvaildEmailAndInValidPassword" finished-at="2021-06-25T08:54:02 EET" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherCannotLoginWithInvaildEmailAndInValidPassword -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:54:02 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:54:02 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherCannotLoginWithInvaildEmailAndInValidPassword status=SUCCESS method=TeacherLoginWithInvalidData.teacherCannotLoginWithInvaildEmailAndInValidPassword()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="teacherCannotLoginWithWrongEmail()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:54:02 EET" name="teacherCannotLoginWithWrongEmail" finished-at="2021-06-25T08:54:04 EET" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teacherCannotLoginWithWrongEmail -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:54:04 EET" name="takeScreenshotOnFailure" finished-at="2021-06-25T08:54:04 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teacherCannotLoginWithWrongEmail status=SUCCESS method=TeacherLoginWithInvalidData.teacherCannotLoginWithWrongEmail()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.TeacherLoginWithInvalidData@156b88f5]" started-at="2021-06-25T08:54:04 EET" name="stopDriver" finished-at="2021-06-25T08:54:05 EET" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.TeacherLoginWithInvalidData -->
+    </test> <!-- Teacher Login Test -->
+  </suite> <!-- User Registeration suit -->
+</testng-results>
